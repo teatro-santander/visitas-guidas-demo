@@ -1,12 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-WPLKLVN");
+    </script>
+    <!-- End Google Tag Manager -->
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
   <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-WPLKLVN"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <h1>Hola gente</h1>
+
+    <!--  ----------------- FORM SENDY ----------------------- -->
+
+    <form
+      action="https://sendy.teatrosantanderbga.com/subscribe"
+      method="POST"
+      accept-charset="utf-8"
+    >
+      <label for="name">Name</label><br />
+      <input type="text" name="name" id="name" />
+      <br />
+      <label for="email">Email</label><br />
+      <input type="email" name="email" id="email" />
+      <br />
+      <label for="Last_name">Last_name</label><br />
+      <input type="text" name="Last_name" id="Last_name" />
+      <br />
+      <label for="Category">Category</label><br />
+      <input type="text" name="Category" id="Category" />
+      <br />
+      <label for="Phone">Phone</label><br />
+      <input type="text" name="Phone" id="Phone" /><br />
+      <div style="display: none">
+        <label for="hp">HP</label><br />
+        <input type="text" name="hp" id="hp" />
+      </div>
+      <input type="hidden" name="list" value="CxoCUqQzoaYXhKrj08635w" />
+      <input type="hidden" name="subform" value="yes" />
+      <input type="submit" name="submit" id="submit" />
+    </form>
+
+    <!--  ----------------- FORM SENDY ----------------------- -->
+
+    <!-- Bootstrap CSS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
