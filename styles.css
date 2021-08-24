@@ -1,0 +1,13 @@
+.hero {
+background: rgb(239,68,68);
+background: -moz-linear-gradient(90deg, rgba(239,68,68,1) 0%, rgba(30,41,59,1) 40%, rgba(30,41,59,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(239,68,68,1) 0%, rgba(30,41,59,1) 40%, rgba(30,41,59,1) 100%);
+background: linear-gradient(90deg, rgba(239,68,68,1) 0%, rgba(30,41,59,1) 40%, rgba(30,41,59,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ef4444",endColorstr="#1e293b",GradientType=1);
+
+}
+
+.navbar {
+  background-color: white;
+  
+}
